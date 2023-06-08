@@ -79,8 +79,38 @@ const updateVocabCards = (payload) => new Promise((resolve, reject) => {
 });
 
 // TODO: FILTER CARDS BY CATEGORY
-const VocabCategory = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabCards.json?orderBy="uid"&equalTo="${uid}"`, {
+const vocabWebDev = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Web Development"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const whichCategory = Object.values(data).filter((item) => item.category);
+      resolve(whichCategory);
+    })
+    .catch(reject);
+});
+
+const vocabHerp = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Herpetology"`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      const whichCategory = Object.values(data).filter((item) => item.category);
+      resolve(whichCategory);
+    })
+    .catch(reject);
+});
+
+const vocabCraft = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Crafting"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -108,11 +138,13 @@ const deleteVocabCard = (firebaseKey) => new Promise((resolve, reject) => {
 });
 
 export {
+  vocabWebDev,
+  vocabHerp,
+  vocabCraft,
   getVocabCards,
   deleteVocabCard,
   getOneVocabCard,
   createVocabCard,
   updateVocabCards,
-  VocabCategory,
   selectVocabCategory
 };
