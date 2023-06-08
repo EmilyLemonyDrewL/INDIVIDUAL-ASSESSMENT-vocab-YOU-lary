@@ -20,7 +20,7 @@ const navBar = () => {
       <a class="nav-link" href="#" id="category-2">Herpetology</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="#" id="category-3">Arts & Crafts</a>
+      <a class="nav-link" href="#" id="category-3">Crafting</a>
       </li>
       </ul>
         <span class="navbar-text">

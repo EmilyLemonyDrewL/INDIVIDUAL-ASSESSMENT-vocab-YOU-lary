@@ -19,7 +19,7 @@ const addVocabForm = (obj = {}) => {
       <option selected>Choose a Category</option>
       <option value="Web Development">Web Development</option>
       <option value="Herpetology">Herpetology</option>
-      <option value="Arts & Crafts">Arts & Crafts</option>
+      <option value="Crafting">Crafting</option>
       </select>
       </div>
       <button type="submit" class="btn btn-primary">Submit
