@@ -8,3 +8,18 @@ body {
   text-align: center;
   margin-top: 100px;
 }
+
+#navigation {
+  padding-bottom: 48px;
+}
+
+.card {
+  width:300px;
+  margin: 10px;
+
+  .table {
+    margin: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}

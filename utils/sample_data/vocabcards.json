@@ -2,7 +2,7 @@
   "-blue1234": {
     "uid": "",
     "firebaseKey": "-blue1234",
-    "title": "Web Development",
+    "title": "Interpolation",
     "definition": "Direct trade gastropub meh, tilde swag gochujang retro raclette. Gochujang YOLO tote bag, gentrify tilde live-edge viral XOXO vice mustache af PBR&B hoodie selfies. Art party messenger bag shoreditch typewriter fingerstache raw denim slow-carb franzen portland praxis cred flannel meggings. Snackwave vibecession succulents, bruh trust fund williamsburg ramps farm-to-table tumeric pickled kickstarter.",
     "category": "Web Development",
     "time_submitted": ""
@@ -12,6 +12,7 @@
     "firebaseKey": "-blue1235",
     "title": "Scope",
     "definition": "Occupy health goth meggings, vape cred mlkshk ennui cronut whatever. Vexillologist typewriter art party banh mi JOMO meh big mood tonx succulents. Neutral milk hotel quinoa paleo kickstarter blackbird spyplane flannel succulents waistcoat taxidermy truffaut woke activated charcoal microdosing farm-to-table bicycle rights. Microdosing pabst etsy hammock gastropub.",
+    "category":"Web Development",
     "time_submitted": ""
   },
   "-blue1236": {
@@ -43,7 +44,7 @@
     "firebaseKey": "-blue1239",
     "title": "Epoxy",
     "definition": "Cold-pressed +1 readymade vexillologist, blue bottle vape ennui. IPhone 3 wolf moon you probably haven't heard of them succulents selfies keytar. Glossier jianbing literally kickstarter. Microdosing photo booth blog squid meggings. Small batch art party tilde swag PBR&B, blackbird spyplane hexagon tumeric aesthetic woke gorpcore Brooklyn chicharrones. Jianbing mixtape put a bird on it tonx, pabst kitsch fixie tumeric tumblr.",
-    "category": "Crafting",
+    "category": "Arts & Crafts",
     "time_submitted": ""
   }
 }
