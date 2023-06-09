@@ -79,8 +79,8 @@ const updateVocabCards = (payload) => new Promise((resolve, reject) => {
 });
 
 // TODO: FILTER CARDS BY CATEGORY
-const vocabWebDev = () => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Web Development"`, {
+const vocabJavascript = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Javascript"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -94,8 +94,8 @@ const vocabWebDev = () => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const vocabHerp = () => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Herpetology"`, {
+const vocabPython = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Python"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -109,8 +109,8 @@ const vocabHerp = () => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-const vocabCraft = () => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="Crafting"`, {
+const vocabSQL = () => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabCards.json?orderBy="category"&equalTo="SQL"`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
@@ -138,9 +138,9 @@ const deleteVocabCard = (firebaseKey) => new Promise((resolve, reject) => {
 });
 
 export {
-  vocabWebDev,
-  vocabHerp,
-  vocabCraft,
+  vocabJavascript,
+  vocabPython,
+  vocabSQL,
   getVocabCards,
   deleteVocabCard,
   getOneVocabCard,
