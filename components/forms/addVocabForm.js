@@ -6,15 +6,15 @@ const addVocabForm = (obj = {}) => {
   clearDom();
   const domString = `
     <form id="${obj.firebaseKey ? `update-word--${obj.firebaseKey}` : 'submit-vocab'}"class="mb-4">
-      <div class="form-group">
+      <div class="form-group fs-3 mx-auto w-50">
         <label for="title">Vocabulary Word</label>
         <input type="text" class="form-control" id="title" aria-describedby="vocabTitle" placeholder="Enter Vocabulary Word" value="${obj.title || ''}" required>
       </div>
-      <div class="form-group">
+      <div class="form-group fs-3 mx-auto w-50">
         <label for="description">Definition</label>
         <textarea class="form-control" placeholder="Word Definition" id="definition" style="height: 100px">${obj.definition || ''}</textarea>
       </div>
-      <div class="form-group" id="select-category">
+      <div class="form-group  fs-3 mx-auto w-50" id="select-category">
       <select class="form-select" id="category-input" aria-label="Default select example" required>
       <option selected>Choose a Category</option>
       <option value="Javascript">Javascript</option>

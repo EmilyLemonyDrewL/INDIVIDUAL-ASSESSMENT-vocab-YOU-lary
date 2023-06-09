@@ -9,19 +9,17 @@ const emptyVocab = () => {
 const showVocab = (array) => {
   clearDom();
 
-  // const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Create New Card</button>';
-  // renderToDOM('#add-button', btnString);
-
   let domString = '';
   array.forEach((item) => {
     domString += `
-    <div class="card">
+    <div class="card" id="cards">
     <div class="card-body">
-    <h5 class="card-title">${item.title}</h5>
-      <p>${item.definition}</p>
-      <p>${item.category}</p>
-      <i id="edit-word-btn--${item.firebaseKey}" class="fas fa-edit btn btn-info"></i>
-      <i id="delete-word-btn--${item.firebaseKey}" class="btn btn-danger fas fa-trash-alt"></i>
+    <h5 class="card-title fs-2">${item.title}</h5>
+      <p class="fs-5">${item.definition}</p>
+      <p class="fs-5 fw-bold">Language/Tech:</p>
+      <p class="fs-4">${item.category}</p>
+      <p id="edit-word-btn--${item.firebaseKey}" class="btn btn-outline-secondary fs-4">EDIT</p>
+      <p id="delete-word-btn--${item.firebaseKey}" class="btn btn-outline-secondary fs-4">DELETE</p>
   </div>
   </div>`;
   });
