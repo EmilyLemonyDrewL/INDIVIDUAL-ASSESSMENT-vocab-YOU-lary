@@ -14,13 +14,13 @@ const navBar = () => {
       <a class="nav-link" href="#" id="show-all-cards">Show All</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="#" id="category-1">Web Developement</a>
+      <a class="nav-link" href="#" id="category-1">Javascript</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="#" id="category-2">Herpetology</a>
+      <a class="nav-link" href="#" id="category-2">Python</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="#" id="category-3">Crafting</a>
+      <a class="nav-link" href="#" id="category-3">SQL</a>
       </li>
       </ul>
         <span class="navbar-text">
