@@ -27,4 +27,4 @@ The use of this application could be anyone. Perhaps, students or developers who
 https://github.com/EmilyLemonyDrewL
 
 <h3>Loom video:</h3>
-Coming soon!
+https://www.loom.com/share/54771dcce3b14f5cac4f8cfd122009d1
