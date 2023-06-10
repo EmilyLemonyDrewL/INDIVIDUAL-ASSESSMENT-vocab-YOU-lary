@@ -14,7 +14,7 @@ The use of this application could be anyone. Perhaps, students or developers who
 <h3>Features:</h3>
 <ul>
   <li>Allows the user to login/logout using their google account.</li>
-  <li>Allows the user to create vocalary cards.</li>
+  <li>Allows the user to create vocabulary cards.</li>
   <li>The buttons on the cards allow the user to delete and edit their entries.</li>
   <li>Allows the user to sort by language.</li>
 </ul>
