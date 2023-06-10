@@ -1,7 +1,7 @@
 <h2>Lemony's Vocabulary Cards:</h2>
 
 <h2>Overview:</h2>
-Lemony's Vocabulary cards allows the user to add vocabulary cards by submitting a form. The user can delete and update their cards as well.
+'Lemony's Vocabulary Cards' allows the user to add vocabulary cards by submitting a form. The user can delete and update their cards as well.
 
 <h3>Link to the wireframe:</h3>
 
