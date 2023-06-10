@@ -4,6 +4,7 @@
 'Lemony's Vocabulary Cards' allows the user to add vocabulary cards by submitting a form. The user can delete and update their cards as well.
 
 <h3>Link to the wireframe:</h3>
+https://www.figma.com/file/eIb79HvcFumKIVvvXkLS4c/Vocab-YOU-lary-project?type=design&node-id=0%3A1&t=XGf9o9uF3EtQfIPo-1
 
 <h3>Link to the deployed project:</h3>
 https://lemonys-vocabulary-cards.netlify.app
