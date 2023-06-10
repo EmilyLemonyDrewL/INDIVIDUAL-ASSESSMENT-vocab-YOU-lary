@@ -21,6 +21,7 @@ The use of this application could be anyone. Perhaps, students or developers who
 </ul>
 
 <h3>Screenshot:</h3>
+![vocabularyScreenshot](https://github.com/EmilyLemonyDrewL/INDIVIDUAL-ASSESSMENT-vocab-YOU-lary/assets/126979112/800d2f05-df7f-49c7-9928-351b1386376a)
 
 <h3>Contributors:</h3>
 https://github.com/EmilyLemonyDrewL
